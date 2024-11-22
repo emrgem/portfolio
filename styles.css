@@ -55,11 +55,14 @@ header nav ul li a:hover {
     text-align: center;
     background-color: #f1f1f1;
 }
-.about h2 {
+h2 {
     font-size: 3rem;
 }
+h3 {
+    font-size: 2rem;
+}
 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #555;
 }
 
@@ -118,4 +121,77 @@ p {
     height: auto;
     border-radius: 5px;
     margin-bottom: 15px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #333;
+    color:white;
+    padding: 50px 20px;
+    text-align: center;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.contact-info {
+    width: 45%;
+}
+.contact-item {
+    background-color: #444;
+    padding:20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.contact-item a {
+    color: rgb(4, 200, 249);
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact-item a:hover {
+    text-decoration: underline;
+    color:white;
+}
+
+.contact-form {
+    width: 45%;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px
+}
+.contact-form input, .contact-form textarea {
+    width:90%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-size: 1rem;
+}
+
+.contact-form button[type="submit"] {
+    background-color: rgb(4, 200, 249);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
 }
